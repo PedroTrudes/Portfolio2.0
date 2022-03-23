@@ -1,1 +1,188 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.container__inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container__inicio .container__inicio--img img {
+  width: 550px;
+  height: 600px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.container__inicio .container__inicio--infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 65px;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 65px;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--nav span {
+  font-size: 1.8em;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #000;
+  padding: 5px;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--nav ul li {
+  margin-right: 15px;
+  padding-right: 5px;
+  border-right: 3px solid #000;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--nav ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: "Bebas Neue", cursive;
+  color: #34B8B9;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--info {
+  border: 1px solid rebeccapurple;
+  padding: 25px 25px;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--info h2 {
+  color: #34B8B9;
+  font-size: 1.8em;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bolder;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--info h1 {
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--info p {
+  font-size: 1.3em;
+  font-family: "Bebas Neue", cursive;
+  padding-bottom: 30px;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--info button {
+  width: 245px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: #34B8B9;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--midia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--midia div {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+}
+
+.container__inicio .container__inicio--infos .container__inicio--midia div img {
+  height: 40px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*# sourceMappingURL=main.css.map */
