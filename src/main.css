@@ -185,4 +185,83 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+.sobre {
+  background-color: #000;
+  height: 480px;
+  text-align: center;
+  color: #FFF;
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sobre h3 {
+  font-weight: bold;
+  font-size: 2.2em;
+  padding-bottom: 5px;
+}
+
+.sobre .sobre--barra {
+  border: 3px solid #FFF;
+  width: 3%;
+  border-radius: 10px;
+}
+
+.sobre .container__sobre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 370px;
+}
+
+.sobre .container__sobre .container__sobre--infos {
+  height: 350px;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sobre .container__sobre .container__sobre--infos p {
+  font-size: 1.8em;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  padding: 0px 25px;
+}
+
+.sobre .container__sobre .container__sobre--img {
+  height: 350px;
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=main.css.map */
