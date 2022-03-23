@@ -81,7 +81,6 @@
 }
 
 .container__inicio .container__inicio--infos .container__inicio--info {
-  border: 1px solid rebeccapurple;
   padding: 25px 25px;
 }
 
@@ -208,6 +207,7 @@ table {
   font-weight: bold;
   font-size: 2.2em;
   padding-bottom: 5px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .sobre .sobre--barra {
@@ -263,5 +263,115 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.sobre .container__sobre .container__sobre--img img {
+  height: 300px;
+  width: 350px;
+}
+
+.servicos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px;
+  text-align: center;
+}
+
+.servicos h3 {
+  font-weight: bold;
+  font-size: 2.2em;
+  padding-bottom: 5px;
+  color: #34B8B9;
+  font-family: "Bebas Neue", cursive;
+}
+
+.servicos .servicos--barra {
+  border: 3px solid #000;
+  width: 3%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.servicos p {
+  font-size: 1.1em;
+  max-width: 60%;
+}
+
+.servicos .container__sobre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicos .container__sobre .container__sobre--cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: 30px;
+  height: 350px;
+  width: 28%;
+  background-color: rgba(224, 224, 224, 0.295);
+  border-radius: 8px;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  -webkit-box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+          box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.servicos .container__sobre .container__sobre--cards:hover {
+  background-color: #000;
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.servicos .container__sobre .container__sobre--cards img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.servicos .container__sobre .container__sobre--cards .title--cards {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+}
+
+.servicos .container__sobre .container__sobre--cards .txt--cards {
+  font-size: 1.2em;
+  text-transform: lowercase;
 }
 /*# sourceMappingURL=main.css.map */
