@@ -1,0 +1,80 @@
+    
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    text-align: center;
+
+    h3{
+        font-weight: bold;
+        font-size: 2.2em;
+        padding-bottom: 5px;
+        color: $cor-texto-azul;
+        font-family: $font-bebas;
+    }
+    .habilidade--barra{
+        border: 3px solid #000;
+        width: 3%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    p{
+        font-size: 1.1em;
+        max-width: 60%;
+    }
+
+    .container__sobre{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+
+    .container__sobre--cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 30px;        
+        height: 350px;
+        width: 28%;
+        background-color: rgba(224, 224, 224, 0.295);
+        border-radius: 8px;
+        transition: 1s ease-in-out;
+
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;       
+        
+        &:hover{
+            background-color: #000;
+            color: #fff;
+            border-bottom-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+
+            transform: scale(1.1);
+        }
+
+        img{
+            width: 60px;
+            height: 60px;
+            margin-bottom: 15px;
+        }
+
+        .title--cards{
+            font-size: 1.5em;
+            font-weight: bold;
+            font-family: $font-bebas;
+        }
+
+        .txt--cards{
+            font-size: 1.2em;
+            text-transform: lowercase;
+        }
+    }
+}
+}
