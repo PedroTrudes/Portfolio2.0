@@ -1,0 +1,26 @@
+@media (max-width: 820px){
+    .servicos{
+        padding: 35px 5px;
+
+        p{
+            font-size: 1.5Sem;
+            
+        }
+
+        .container__servicos{
+            .container__servicos--card{
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .servicos{
+        .container__servicos{
+            .container__servicos--card{
+                width: 80%;
+            }
+        }
+    }
+}

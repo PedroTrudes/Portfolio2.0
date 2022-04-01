@@ -1,0 +1,47 @@
+@media (max-width: 820px){
+    .habilidades{
+        padding: 35px 0px;
+
+        h3{
+            font-size: 2em;
+
+        }
+        p{
+            font-size: 1.5em;
+        }
+
+        .container__sobre{
+            padding: 10px;
+
+            .container__sobre--cards{
+                width: 42%;
+
+            }
+
+            .title--cards{
+                font-size: 1.8em;
+            }
+
+            .txt--cards{
+                padding-top: 15px;
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .habilidades{
+
+        .container__sobre{
+
+            .container__sobre--cards{
+                width: 80%;
+
+            }
+
+         
+        }
+    }
+}

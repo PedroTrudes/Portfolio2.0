@@ -1,7 +1,16 @@
-@import 'inicio/inicio-img';
 @import 'reset';
 @import 'imports/imports';
-@import 'sobre/sobre';
-@import 'habilidades/habilidades';
-@import 'servicos/servicos';
+
 @import 'contatos/contatos';
+
+@import 'inicio/inicio';
+@import 'inicio/respoInicio';
+
+@import 'sobre/sobre';
+@import 'sobre/respoSobre';
+
+@import 'habilidades/habilidades';
+@import 'habilidades/respoHabilidades';
+
+@import 'servicos/servicos';
+@import 'servicos/respoServicos'

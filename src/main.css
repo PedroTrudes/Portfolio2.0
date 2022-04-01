@@ -1,5 +1,111 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.contato {
+  background-color: #000000;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contato h3 {
+  font-weight: bold;
+  font-size: 2.2em;
+  padding-bottom: 5px;
+  color: #34B8B9;
+  font-family: "Bebas Neue", cursive;
+}
+
+.contato p {
+  color: #fff;
+}
+
+.contato .contatos--barra {
+  border: 3px solid #34B8B9;
+  width: 10%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.contato .container__contatos {
+  height: 200px;
+  width: 80%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contato .container__contatos img {
+  width: 50px;
+}
+
 .container__inicio {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,56 +240,22 @@
 
 .container__inicio .container__inicio--infos .container__inicio--midia div img {
   height: 40px;
+  padding-left: 25px;
 }
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+@media (max-width: 820px) {
+  .container__inicio {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container__inicio .container__inicio--img {
+    display: none;
+  }
+  .container__inicio .container__inicio--infos {
+    padding: 30px 30px;
+  }
 }
 
 .sobre {
@@ -209,6 +281,7 @@ table {
   font-size: 2.2em;
   padding-bottom: 5px;
   font-family: "Bebas Neue", cursive;
+  color: #34B8B9;
 }
 
 .sobre .sobre--barra {
@@ -271,6 +344,70 @@ table {
   width: 350px;
 }
 
+@media (max-width: 820px) {
+  .sobre {
+    height: auto;
+  }
+  .sobre .container__sobre {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .sobre .container__sobre .container__sobre--infos {
+    height: 180px;
+    width: 80%;
+  }
+  .sobre .container__sobre .container__sobre--infos p {
+    font-size: 2em;
+  }
+  .sobre .container__sobre .container__sobre--img {
+    height: 230px;
+  }
+  .sobre .container__sobre .container__sobre--img img {
+    height: 220px;
+  }
+}
+
+@media (max-width: 430px) {
+  .sobre {
+    height: auto;
+  }
+  .sobre .container__sobre {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .sobre .container__sobre .container__sobre--infos {
+    height: 180px;
+    width: 90%;
+  }
+  .sobre .container__sobre .container__sobre--infos p {
+    font-size: 1.8em;
+  }
+  .sobre .container__sobre .container__sobre--img {
+    height: 230px;
+  }
+  .sobre .container__sobre .container__sobre--img img {
+    height: 200px;
+  }
+}
+
 .habilidades {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -302,7 +439,9 @@ table {
 }
 
 .habilidades p {
-  font-size: 1.1em;
+  font-size: 1.8em;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
   max-width: 60%;
 }
 
@@ -376,6 +515,38 @@ table {
   text-transform: lowercase;
 }
 
+@media (max-width: 820px) {
+  .habilidades {
+    padding: 35px 0px;
+  }
+  .habilidades h3 {
+    font-size: 2em;
+  }
+  .habilidades p {
+    font-size: 1.5em;
+  }
+  .habilidades .container__sobre {
+    padding: 10px;
+  }
+  .habilidades .container__sobre .container__sobre--cards {
+    width: 42%;
+  }
+  .habilidades .container__sobre .title--cards {
+    font-size: 1.8em;
+  }
+  .habilidades .container__sobre .txt--cards {
+    padding-top: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 600px) {
+  .habilidades .container__sobre .container__sobre--cards {
+    width: 80%;
+  }
+}
+
 .servicos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -407,8 +578,10 @@ table {
 }
 
 .servicos p {
-  font-size: 1.1em;
+  font-size: 1.8em;
   max-width: 60%;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
 }
 
 .servicos .container__servicos {
@@ -471,59 +644,21 @@ table {
   }
 }
 
-.contato {
-  background-color: #000000;
-  height: 350px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+@media (max-width: 820px) {
+  .servicos {
+    padding: 35px 5px;
+  }
+  .servicos p {
+    font-size: 1.5Sem;
+  }
+  .servicos .container__servicos .container__servicos--card {
+    width: 40%;
+  }
 }
 
-.contato h3 {
-  font-weight: bold;
-  font-size: 2.2em;
-  padding-bottom: 5px;
-  color: #34B8B9;
-  font-family: "Bebas Neue", cursive;
-}
-
-.contato p {
-  color: #fff;
-}
-
-.contato .contatos--barra {
-  border: 3px solid #34B8B9;
-  width: 10%;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-
-.contato .container__contatos {
-  height: 200px;
-  width: 80%;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.contato .container__contatos img {
-  width: 50px;
+@media (max-width: 600px) {
+  .servicos .container__servicos .container__servicos--card {
+    width: 80%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
