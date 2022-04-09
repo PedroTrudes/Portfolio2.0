@@ -7,9 +7,13 @@
             
         }
 
-        .container__servicos{
-            .container__servicos--card{
-                width: 40%;
+        .container__card{
+            .container__card--cards{
+                width: auto;
+
+                .face.face2 {
+                    transform: translateY(0);
+                }
             }
         }
     }
@@ -17,9 +21,26 @@
 
 @media (max-width: 600px) {
     .servicos{
-        .container__servicos{
-            .container__servicos--card{
+        .container__card{
+            .container__card--cards{
                 width: 80%;
+
+                .face.face1{
+                    width: auto;
+                }
+
+                .face.face2 {
+                    transform: translateY(0);
+                    width: auto;
+                    height: 250px;
+
+                    .conteudo{
+                        p{
+                            margin-bottom: 15px;
+                        }
+
+                    }
+                }
             }
         }
     }

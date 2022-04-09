@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/main.css">
     <link rel="shortcut icon" type="imagex/png" href="src/img/icon/programing.ico">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Pedro Trudes</title>
   </head>
   <body>
 
     <header>
-      <div class="container__inicio">
+      <div class="container__inicio" data-aos="fade-left">
         
         <div class="container__inicio--img">
             <img src="https://avatars.githubusercontent.com/u/56119812?v=4" alt="Foto pedrotrudes">
@@ -34,9 +35,9 @@
           </div>
 
           <div class="container__inicio--info">
-            <h2>Ola, eu sou</h2>
-            <h2>Pedro Trudes</h2>
-            <h1>Sou Desenvolvedor front-end</h1>
+            <h2 class="animacao--texto">Ola, eu sou</h2>
+            <h2 class="animacao--texto">Pedro Trudes</h2>
+            <h1 class="animacao--texto">Sou Desenvolvedor front-end</h1>
 
             <p>
               Navegue pela minha pagina de apresentação e venha <br>saber um pouco
@@ -48,7 +49,7 @@
               Se quiser ver meu curriculo é só clicar no botão
             </p>
             <a href="src/PDF/Pedro Joaquim - Dev-frontend.pdf" download="Pedro-joaquim-CV">
-            <button type="submit">
+            <button type="submit" class="animacao--botao">
               Curriculo
             </button>
           </a>
@@ -70,7 +71,7 @@
       </div>
     </header>
 
-    <section class="sobre">
+    <section class="sobre" data-aos="fade-right">
         
         <h3>Sobre</h3>
         <div class="sobre--barra"></div>
@@ -87,7 +88,7 @@
         </di>
     </section>
 
-    <section class="habilidades">
+    <section class="habilidades" data-aos="fade-up">
       <h3>habilidades</h3>
       <div class="habilidade--barra"></div>
 
@@ -133,7 +134,7 @@
       </div>
     </section>
 
-    <section class="servicos">
+    <section class="servicos" data-aos="fade-up">
         <h3>Serviços</h3>
         <div class="servicos--barra"></div>
 
@@ -245,7 +246,7 @@
 
     </section>
 
-    <section  class="contato">
+    <section  class="contato" data-aos="fade-up">
 
       <h3>Entre em contato</h3>
       <div class="contatos--barra"></div>
@@ -263,5 +264,12 @@
         </div>
         <p>Desenvolvido por Pedro Trudes / 2022</p>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration : 2000,
+      });
+    </script>
   </body>
 </html>
