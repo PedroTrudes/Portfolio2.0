@@ -6,11 +6,13 @@
    // color: $cor-texto-azul; // teste de fonte
 
     .container__inicio--img{
+        margin: 5px;
+        padding: 15px;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;        
         img{
-            width: 550px;
+            width: 400px;
             height: 600px;
-            border-bottom-left-radius: 8px;
-            border-bottom-right-radius: 8px;
+            border-radius: 5px;
         }
     }
 
